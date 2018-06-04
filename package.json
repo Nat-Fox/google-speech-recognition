@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "@google-cloud/language": "^1.1.0",
+    "@google-cloud/speech": "^1.1.0",
+    "bluebird": "^3.5.1",
+    "chalk": "^2.3.1",
+    "minimist": "^1.2.0"
+  },
+  "scripts": {
+    "start": "node ./src/index.js",
+    "convert": "node ./scripts/convert.js --input ./recordings/other-formats/12.wav --output ./recordings/flac/12.flac"
+  },
+  "name": "google-speech-recognition",
+  "version": "1.0.0",
+  "description": "Samples of using google's speech recognition & natural language processing APIS in NodeJS",
+  "main": "index.js",
+  "license": "MIT",
+  "private": false
+}
